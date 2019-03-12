@@ -1,0 +1,60 @@
+.container {
+  background-color: #0e2a38;
+  height: 100vh;
+  width: 100vw;
+}
+
+#welcome-h1 {
+  font-size: 40px;
+  font-weight: 900;
+  font-family: "Montserrat", sans-serif;
+  padding: 350px 0px 0px 0px;
+  text-align: center;
+  color: white;
+}
+
+.hr-line {
+  height: 5px;
+  width: 180px;
+  border-radius: 15px;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab)
+    repeat-x;
+  background-size: 400% 400%;
+  left: 63vw;
+  bottom: 3vh;
+  animation: animateLine 2s cubic-bezier(0.5, -0.005, 0.2, 1),
+    gradientBG 5s cubic-bezier(0.5, -0.005, 0.2, 1) 2s infinite;
+}
+
+@keyframes animateLine {
+  0% {
+    width: 0;
+    left: 29vw;
+  }
+  100% {
+    width: 180px;
+    left: 63vw;
+  }
+}
+
+@keyframes gradientBG {
+  0% {
+    background-position: 0%;
+  }
+
+  25% {
+    background-position: 50%;
+  }
+
+  50% {
+    background-position: 100%;
+  }
+
+  75% {
+    background-position: 50%;
+  }
+
+  100% {
+    background-position: 0%;
+  }
+}

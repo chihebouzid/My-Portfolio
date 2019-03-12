@@ -1,0 +1,218 @@
+.container {
+  display: flex;
+  align-items: center;
+  background-color: #304753;
+  height: 100vh;
+  width: 100vw;
+}
+
+
+/* ////////////////////////////////////////hedear elements///////////////////////////////////////// */
+.about-header-elements {
+  font-size: 106px;
+  font-weight: 900;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.about-header-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 22vw;
+  left: 3vw;
+}
+
+.about-header {
+  background-color: #0e2a38;
+  display: flex;
+  align-items: flex-start;
+  height: 100vh;
+  padding: 80px 0px 0px 60px;
+  width: 50vw;
+}
+/* ////////////////////////////////////////mat card elements///////////////////////////////////////// */
+
+.about-card{
+  height: 90%;
+  width: 40%;
+  animation: cardFadeIn 2s cubic-bezier(0.5, -0.005, 0.2, 1)  forwards;
+}
+
+.about-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 0 0 0;
+  height: 90%;
+  width: 100%;
+}
+
+.about-img{
+  border-radius: 50%;
+  top: 2%;
+}
+
+.mat-card-content{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content:space-around;
+  margin: 80px 0px 40px 0px;
+}
+
+.btn{
+  width: 150px;
+  height: 40px;
+  border-radius: 30px;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e) ;
+  color: white;
+}
+
+.p-style{
+  font-size: 14px;
+  line-height: 1.6em;
+  text-align: justify;
+  margin-top: 8px;
+}
+
+.text-box{
+  width: 90%;
+  text-align: center;
+}
+
+.video-box{
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  width: 90%;
+  height: 80%;
+  margin-top: 20px;
+  background-color: aliceblue;
+  
+}
+
+.aboutBox{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.myPersonality{
+  background-image: url('https://lh3.googleusercontent.com/x71la_UWcJcsz4VQAB6gca5GrZOB14I6BnKqP9UAS7BCzZGv4kIscErTYzBMxeMEGr36GatxF7HqXGq1aF9jQqLqKoP89rAaubFd8KqdA4BEGrBGGkmb2Q0d6Q6s6scpHwwwUpuRexfZPiilNYKSFJ0w5sui7ljfIQ86zYtNH-cR-JPT8tFBBZsJ6LayqJ7CE0jV1bG1wrVltcDdueQWgJjV6fwWPM7ce80vyOBgtNfl78iSb8BrNwBPpTLxwCV0Mf97dFsc5XMwuR37HkZIzrFbvFbwYfbBcmju_eRbc9GMKCNSK6YDa0jvWRWKZgOLziSC4XVFZuuGc9KwsiYVBlMCcGlm2P3_6jV_RgETfdCMECohC-n_6S954qm9FDQAvu5ZTDvteK9giE9Epo0JInwhAU6StC3dWkjZ63QzWtlzlHHlORnsx2zhJP3UAXaec0cRlD0R0yRVKT68zXvMFDcgfDil_uWFAN0NwAN2lkFk3PtGYmPR3IV7SkEoBDcdQLIIbXKV9QX_hm5BBmrFHTRfZPyr9Q0t-m9JRG3fyIxgsgr7xbBtV0mgQO-lyy3afy9NzC8J5-RKCCuu-wqU5JWqgmA4uvTgZcJLQFecPIAQdrW8IHgfjHMIfC6XSZnLgRiW2dnp1e7bJnqR9FuLsijtDeZkWsA=w1456-h969-no');
+  background-size: cover;
+  background-position: 100% 5%;
+}
+
+.myStory{
+  background-image: url('https://lh3.googleusercontent.com/Jdbzhr_yZkmffPa3d2rzcQefkoOZKO5NxEneM2yPVr_jYIVBNHhInRxf3Hs7sVSA8zoRvfeJ1zVxneZ0Z6GX_f0pJL34VkpMj-V3r9VXw_-Y5p0ZgHc02_aU61Sq1IOP5AjpoVNuSLDsPNuzymFgoWryDo6-pAmFKHxRcHyEOljLtmswj3WN0EUknzvfUAF__FpvwPcYnXerbwJ-k8IgK7bkG7L_i28O4VYYEbwFdrfmXW_H9RX6aKIA3QxIcIJCY9cIBduq1XKJx8K5NlQPJxZpgvhagiVQhNdJZDnpD_uG8baZwGQmMm-F8ggVUuorttVRuqyi9bRrchFkSiKl8NcXXIR2TZG3j0KquY5RLtK6yJ74hj2kL_N-0MkcPYm2ovt403vtr3QZexTZtnV5BgGmu3cdXJh14wf5_rjlgU4ONaV-6bl5d0gb7IGfM42BxXe8f70vEd787J4dlkkQkym39M-lMPbBJqa-8k7Bkkk340ZGAyOaytGkE0io8t8DUujbHwjhVj3TdvCm31ioewwZD0XkUMJqMGMf2gql8tXPEDB8Ev6LJyCioO725s6CMYWUi22hhXvFLJ1T1gC_V7nMijPOKxrJk13o8VYOY5LMisQJWuZUIDeiOZqpQ4RofEXidjA3U0pFT51OzHGQCQoqPS4wE3s=w646-h969-no');
+  background-size: cover;
+  background-position: center;
+}
+
+@media only screen 
+  and (min-device-width: 300px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+    .about-header{
+      display: none;
+    }
+    .about-card{
+      width: 90%;
+    }
+    .about-content{
+      padding: 0;
+      height: 100%;
+    }
+    .btn{
+      width: 120px;
+      height: 40px;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ////////////////////////////////////////vertical line animation///////////////////////////////////////// */
+.vr-line {
+  width: 5px;
+  border-radius: 15px;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab)
+    repeat-y;
+  background-size: 400% 400%;
+  left: 2vw;
+  top: 2vh;
+  animation: animateLineVR 2s cubic-bezier(0.5, -0.005, 0.2, 1) 0.7s forwards,
+    gradientBGvr 9s cubic-bezier(0.5, -0.005, 0.2, 1) infinite;
+}
+
+@keyframes animateLineVR {
+  0% {
+    height: 0;
+  }
+  100% {
+    height: 745px;
+  }
+}
+
+@keyframes gradientBGvr {
+  0% {
+    background-position: 0% 0%;
+  }
+
+  25% {
+    background-position: 50% 50%;
+  }
+
+  50% {
+    background-position: 100% 100%;
+  }
+
+  75% {
+    background-position: 50% 50%;
+  }
+
+  100% {
+    background-position: 0% 0%;
+  }
+}
+
+
+@keyframes cardFadeIn {
+
+  0% {
+    opacity: 0;
+    margin-left: 2vw;
+    /* height: 80vh;
+    width: 30vw; */
+  }
+  100% {
+    opacity: 1;
+    margin-left: 5vw;
+    /* height: 90vh;
+    width: 40vw; */
+  }
+
+}

@@ -1,0 +1,42 @@
+<div [@routeAnimations]="prepareRoute(outlet)">
+  <router-outlet #outlet="outlet"></router-outlet>
+</div>
+
+<button class="cn-button " id="cn-button" (click)="onOpenNav()" #navButton>
+  {{ btnIcon }}
+</button>
+<div [ngClass]="wrapperClasses" id="cn-wrapper">
+  <ul>
+    <li>
+      <a routerLink="/visuals"> <span class="icon-picture"></span> </a>
+    </li>
+    <li>
+      <a routerLink="/web">
+        <div style="font-size: 20px">
+          <p>Projects</p>
+          <!-- <span class="icon-th-large"></span> -->
+        </div>
+      </a>
+    </li>
+    <li>
+      <a routerLink="/home">
+        <div style="font-size: 20px">
+          <p>Home</p>
+          <!-- <span class="icon-home"></span> -->
+        </div>
+      </a>
+    </li>
+    <li>
+      <a routerLink="/about">
+        <div style="font-size: 20px">
+          <p>About</p>
+          <!-- <span class="icon-user"></span> -->
+        </div></a
+      >
+    </li>
+    <li>
+      <a routerLink="/contact"><span class="icon-envelope-alt"></span></a>
+    </li>
+  </ul>
+</div>
+<div id="cn-overlay" [ngClass]="overlayClasses"></div>
