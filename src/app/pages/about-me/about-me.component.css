@@ -1,7 +1,8 @@
 .container {
   display: flex;
+  justify-content: center;
   align-items: center;
-  background-color: #304753;
+  background-color: #0e2a38;
   height: 100vh;
   width: 100vw;
 }
@@ -9,7 +10,7 @@
 
 /* ////////////////////////////////////////hedear elements///////////////////////////////////////// */
 .about-header-elements {
-  font-size: 106px;
+  font-size: 5em;
   font-weight: 900;
   font-family: "Montserrat", sans-serif;
   text-align: center;
@@ -28,27 +29,27 @@
 }
 
 .about-header {
-  background-color: #0e2a38;
   display: flex;
-  align-items: flex-start;
-  height: 100vh;
-  padding: 80px 0px 0px 60px;
-  width: 50vw;
+  justify-content: flex-start;
+  align-items: center;
+  height: 70vh;
+  padding: 0px 0px 0px 0px;
+  width: 29vw;
 }
 /* ////////////////////////////////////////mat card elements///////////////////////////////////////// */
 
 .about-card{
-  height: 90%;
-  width: 40%;
+  height: 73%;
+  width: 50%;
   animation: cardFadeIn 2s cubic-bezier(0.5, -0.005, 0.2, 1)  forwards;
 }
 
 .about-content{
   display: flex;
   flex-direction: column;
+  justify-content: flex-start;
   align-items: center;
-  padding: 50px 0 0 0;
-  height: 90%;
+  height: 100%;
   width: 100%;
 }
 
@@ -125,11 +126,16 @@
       display: none;
     }
     .about-card{
-      width: 90%;
+      width: 95%;
+      height: 90%;
+      padding: 0;
+      animation: none;
     }
     .about-content{
       padding: 0;
-      height: 100%;
+      height: 95%;
+      width: 100%;
+      justify-content: center;
     }
     .btn{
       width: 120px;
@@ -163,7 +169,6 @@
     repeat-y;
   background-size: 400% 400%;
   left: 2vw;
-  top: 2vh;
   animation: animateLineVR 2s cubic-bezier(0.5, -0.005, 0.2, 1) 0.7s forwards,
     gradientBGvr 9s cubic-bezier(0.5, -0.005, 0.2, 1) infinite;
 }
@@ -173,7 +178,7 @@
     height: 0;
   }
   100% {
-    height: 745px;
+    height: 600px;
   }
 }
 

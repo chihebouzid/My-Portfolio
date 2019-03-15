@@ -7,22 +7,22 @@ import { ContactComponent } from "./pages/contact/contact.component";
 import { HomeComponent } from "./pages/home/home.component";
 
 const appRoutes: Routes = [
-  { path: "", redirectTo: "/home", pathMatch: "full" },
-  { path: "home", component: HomeComponent, data: { animation: "HomePage" } },
+  { path: "", redirectTo: "/Home", pathMatch: "full" },
+  { path: "Home", component: HomeComponent, data: { animation: "HomePage" } },
   {
-    path: "about",
+    path: "About",
     component: AboutMeComponent,
     data: { animation: "AboutPage" }
   },
 
   {
-    path: "contact",
+    path: "Contact",
     component: ContactComponent,
     data: { animation: "contact" }
   },
-  { path: "web", component: WebComponent, data: { animation: "web" } },
+  { path: "Resume", component: WebComponent, data: { animation: "web" } },
   {
-    path: "visuals",
+    path: "Portfolio",
     component: VisualsComponent,
     data: { animation: "visuaels" }
   }
@@ -32,4 +32,4 @@ const appRoutes: Routes = [
   imports: [RouterModule.forRoot(appRoutes)],
   exports: [RouterModule]
 })
-export class AppRoutingModule {}
+export class AppRoutingModule { }

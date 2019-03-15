@@ -1,10 +1,33 @@
 .bg-container {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content:center;
   background-color: #0E2A38;
   color: white;
   height: 100vh;
   width: 100vw;
+}
+
+.social{
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.emailArrow{
+  width: 200px;
+}
+
+.sendEmail{
+  text-decoration: none;
+  color: white;
+}
+
+.myEmail:hover{
+  background: -webkit-linear-gradient(-45deg, #ee7752, #e73c7e);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
 }
 
