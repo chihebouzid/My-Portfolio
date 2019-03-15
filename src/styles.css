@@ -314,3 +314,20 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
+
+@media only screen 
+  and (min-device-width: 300px) 
+  and (max-device-width: 769px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+
+    html,
+    body {
+      height: 100%;
+      overflow: scroll;
+      
+    }
+
+    
+}

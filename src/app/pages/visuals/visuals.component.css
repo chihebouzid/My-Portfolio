@@ -1,5 +1,5 @@
 .container {
-  background-color: #d26363;
+  background-color: #0e2a38;
   height: 100vh;
   width: 100vw;
   display: flex;
@@ -9,5 +9,112 @@
 
 .container__cards{
   width: 70%;
-  background-color: red
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+h1{
+  font-size: 1.7em;
+  margin-bottom: 0;
+}
+
+p{
+  font-size: .9em;
+  line-height: 1.5em;
+}
+
+
+.card{
+  width: 320px;
+  height: 480px;
+}
+
+.card:hover{
+  border-bottom: solid 5px #e73c7e;
+}
+
+.mat-card{
+  padding: 0;
+}
+
+.card__img{
+  width: 100%;
+}
+
+
+.card__btn{
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.card__discription{
+  height: 63%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 20px 0 20px;
+}
+
+p.card__discription__keywords{
+  font-weight: 700;
+}
+
+.btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: 40px;
+  border-radius: 30px;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e) ;
+  color: white;
+  font-weight: 700;
+  font-size: .9em;
+  filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.2));
+}
+
+
+@media only screen 
+  and (min-device-width: 300px) 
+  and (max-device-width: 769px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+
+   .container{
+     height: 100%;
+   }
+
+   .container__cards{
+    width: 95%;
+  }
+
+  .card{
+    margin: 25px 0 30px 0;
+  }
+
+    
+}
+
+@media only screen 
+  and (min-device-width: 1280px) 
+  and (max-device-width: 1440px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+    .card{
+      width: 300px;
+    }
+
+
+   .container__cards{
+    width: 100%;
+  }
+
+
+    
 }
